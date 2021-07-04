@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(52, 83, 92);
+  color: white;
+  h3 {
+    font-size: 1.4em;
+    background-color: rgb(81, 213, 253);
+    border-radius: 8px;
+    border: none;
+  }
+  .nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    li {
+      font-size: 20px;
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+      font-style: none;
+    }
+  }
+}

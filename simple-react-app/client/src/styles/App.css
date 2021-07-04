@@ -1,0 +1,42 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+  background-color: #34535c;
+  color: white;
+}
+
+nav h3 {
+  font-size: 1.4em;
+  background-color: #51d5fd;
+  border-radius: 8px;
+  border: none;
+}
+
+nav .nav-links {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+nav .nav-links li {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-style: none;
+}
+/*# sourceMappingURL=App.css.map */

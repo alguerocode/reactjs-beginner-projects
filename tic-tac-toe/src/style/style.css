@@ -1,0 +1,296 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.nav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav nav header {
+  margin-left: 5%;
+  font-size: 50px;
+  color: darkorchid;
+}
+
+.nav nav div.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10%;
+  width: 30%;
+}
+
+.nav nav div.links div {
+  margin-top: 10px;
+}
+
+.nav nav div.links div:hover {
+  opacity: 0.8;
+}
+
+.nav nav div.links div .link {
+  background-color: darkorchid;
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+div.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f88d35;
+  width: 80%;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+div.home h1 {
+  padding: 10px;
+  color: wheat;
+}
+
+div.home h2 {
+  padding: 10px;
+  color: white;
+}
+
+div.home div.player-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.home div.player-list div.element {
+  background-color: #9b03af;
+  color: white;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+div.home div.player-list div.element button {
+  background-color: #f88d35;
+  outline: none;
+  margin: 5px 5px 0px 5px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+div.home div.player-list div.element button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+div.create-game {
+  width: 80%;
+  border-radius: 30px;
+  background-color: #f88d35;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+  left: 50%;
+  padding-bottom: 20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+
+div.create-game h1 {
+  padding: 10px;
+  color: wheat;
+}
+
+div.create-game h2 {
+  padding: 10px;
+  color: white;
+}
+
+div.create-game form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 400px;
+}
+
+div.create-game form input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+div.create-game form textarea {
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+div.create-game form input#submit {
+  background-color: darkorchid;
+  color: white;
+  position: relative;
+  top: 10px;
+  padding: 10px;
+}
+
+div.create-game form input#submit:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+div.game-play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-width: 200px;
+}
+
+div.game-play div.game-board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 210px;
+}
+
+div.game-play div.game-board button {
+  font-size: 40px;
+  color: darkorchid;
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  outline: none;
+  border: 0.5px solid white;
+  margin: 0;
+}
+
+div.game-play div.game-board button:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+div.game-play p {
+  margin: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 300px;
+  text-align: center;
+}
+
+div.game-play div.end-game {
+  margin: 20px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: blueviolet;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+div.game-play div.end-game .link {
+  color: white;
+  text-decoration: none;
+}
+
+div.game-play div.end-game:hover {
+  opacity: .9;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  header {
+    margin-left: 5%;
+    font-size: 50px;
+    color: darkorchid;
+  }
+  div.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    width: 30%;
+    div {
+      margin-top: 10px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    div .link {
+      background-color: darkorchid;
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      border-radius: 10px;
+    }
+  }
+}
+div.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(248, 141, 53);
+  width: 80%;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  h1 {
+    padding: 10px;
+    color: wheat;
+  }
+  h2 {
+    padding: 10px;
+    color: white;
+  }
+  div.player-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    div.element {
+      background-color: rgb(155, 3, 175);
+      color: white;
+      padding: 20px;
+      width: 220px;
+      border-radius: 10px;
+      margin: 10px;
+      button {
+        background-color: rgb(248, 141, 53);
+        outline: none;
+        margin: 5px 5px 0px 5px;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        &:hover {
+          opacity: 0.8;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+div.create-game {
+  width: 80%;
+  border-radius: 30px;
+  background-color: rgb(248, 141, 53);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+  left: 50%;
+  padding-bottom: 20px;
+  transform: translateX(-50%);
+  text-align: center;
+  h1 {
+    padding: 10px;
+    color: wheat;
+  }
+  h2 {
+    padding: 10px;
+    color: white;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    input {
+      outline: none;
+      border: none;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    textarea {
+      outline: none;
+      border: none;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    input#submit{
+      background-color: darkorchid;
+      color: white;
+      position: relative;
+      top: 10px;
+      padding: 10px;
+      &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+}
+div.game-play{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  min-width: 200px;
+  div.game-board{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    button{
+      font-size: 40px;
+      color: darkorchid;
+      width: 70px;
+      height: 70px;
+      background-color: orange;
+      outline: none;
+      border: 0.5px solid rgb(255, 255, 255);
+      margin: 0;
+      &:hover{
+        opacity: .5;
+        cursor: pointer;
+      }
+    }
+  }
+  p{
+    margin: 10px;
+    height: fit-content;
+    max-width: 300px;
+    text-align: center;
+  }
+  div.end-game{
+    margin: 20px;
+    justify-self: center;
+    align-self: center;
+    background-color: blueviolet;
+    padding: 15px 20px;
+    border-radius: 8px;
+    .link{
+      color: white;
+      text-decoration: none;
+    }
+    &:hover{
+      opacity: .9;
+      cursor: pointer;
+    }
+  }
+}

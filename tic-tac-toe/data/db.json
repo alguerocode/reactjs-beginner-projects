@@ -1,0 +1,16 @@
+{
+  "games": [
+    {
+      "title": "welcome",
+      "theWinner": "X",
+      "description": "that was a good game ever",
+      "id": 2
+    },
+    {
+      "title": "asd",
+      "description": "welcome",
+      "theWinner": "X",
+      "id": 7
+    }
+  ]
+}
