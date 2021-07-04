@@ -22,6 +22,6 @@ react js and nextjs(react ssr) project to do as a beginner
 ## project describtion 
 
 - [tic tac toe](https://github.com/alhashmicode/reactjs-beginner-projects/tree/main/nextjs-users-page) simple game made by reactjs (⌐■_■)
-- [users page] (https://github.com/alhashmicode/reactjs-beginner-projects/tree/main/nextjs-users-page) show you the users as blogs made by nextjs😊
-- [simple react app] (https://github.com/alhashmicode/reactjs-beginner-projects/tree/main/simple-react-app) made by reactjs
-- [todo list] (https://github.com/alhashmicode/reactjs-beginner-projects/tree/main/state-management-todo-list) using context and state management tools✔✔
+- [users page](https://github.com/alhashmicode/reactjs-beginner-projects/tree/main/nextjs-users-page) show you the users as blogs made by nextjs😊
+- [simple react app](https://github.com/alhashmicode/reactjs-beginner-projects/tree/main/simple-react-app) made by reactjs
+- [todo list](https://github.com/alhashmicode/reactjs-beginner-projects/tree/main/state-management-todo-list) using context and state management tools✔✔
